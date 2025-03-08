@@ -12,10 +12,10 @@ def distance_converter(from_unit,to_unit,value):
     return result
 
 def tempertaure_converter(from_unit,to_unit,value):
-    if from_unit== "Celsius" and to_unit == "Farenheit":
-        result= (value * 9/5) + 32
-    elif from_unit== "Farenheit" and to_unit == "Celsius":
-            result = (value - 35) * 5/9
+    if from_unit == "Celsius" and to_unit == "Fahrenheit":
+        result = (value * 9/5) + 32
+    elif from_unit == "Fahrenheit" and to_unit == "Celsius":
+        result = (value - 32) * 5/9
     else:
         result = value
         return result
