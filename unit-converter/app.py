@@ -42,7 +42,7 @@ def pressure_converter(from_unit,to_unit,value):
 
 
 #UI
-category=st.selectbox("Select catergory",["Distance", "Temperture", "Weight", "Pressure"])
+category=st.selectbox("Select catergory",["Distance", "Temperature", "Weight", "Pressure"])
 
 if category=="Distance":
     from_unit = st.selectbox("From",["Meter", "Kilometer","Miles","Feet"])
