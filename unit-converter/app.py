@@ -52,8 +52,8 @@ if category=="Distance":
         result = distance_converter = (from_unit,to_unit,value)
       
 
-    elif category == "Temperature":
-        from_unit = st.selectbox("From",["Celsius", "Farenheit"])
+elif category == "Temperature":
+    from_unit = st.selectbox("From",["Celsius", "Farenheit"])
     to_unit = st.selectbox("To",["Celsius", "Farenheit"])
     value = st.number_input("Enter value")
     if st.button("Convert"):
